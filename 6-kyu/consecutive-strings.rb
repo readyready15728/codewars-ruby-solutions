@@ -1,5 +1,5 @@
 def longest_consec(strarr, n)
-    if strarr.length == 0 or n > strarr.length or n <= 0
+    if strarr.length == 0 || n > strarr.length or n <= 0
       return ''
     end
     
